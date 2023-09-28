@@ -7,9 +7,9 @@ class Solution {
         }
 
         for(int i=0;i<s.length();i++){
-            a=s.charAt(i);
+            
             System.out.println(a);
-            if(a>57){
+            if(s.charAt(i)>57){
                 return false;
             }
         }
